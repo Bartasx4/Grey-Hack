@@ -1,0 +1,17 @@
+// usage.txt
+Commands
+  scan_lib
+    --path <path> - path to lib.
+    --memory <memory,memory,..,n> | optional - set memory to scan.
+    --save - save result to file.
+  exploit
+    --ip <ip> - ip address of target.
+    --port <port> - port to connect to.
+	--memory <memory> --var <var> | optional - exploit specific memory and var.
+	--data_file <path> | optional - path to file with data for bruteforce.
+	--shell | optional - open shell if success
+	--passwd | optional - decode passwords if success
+  passwd
+    --file <path> | optional - path to passwd file.
+	--user <name> | optional - hack only this user password. Otherwice hack all.
+    --decode <password> | optional - decode password from string.
